@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-// import './App.css';
-import './style.css';
-import Header from './header';
-import Body from './body';
-import Footer from './footer';
-import Link from './link';
-
-
+// import logo from "./logo.svg";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Button } from "react-bootstrap";
+import CollapsibleExample from "./navbar";
+import Demo from "./animate";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-            <Header/>
-            <Body/>
-            <Footer/>
-            <Link/>
-      </header>
-    </div>
-  );
+  return <CollapsibleExample />;
+  // return <Demo />;
 }
 
 export default App;
